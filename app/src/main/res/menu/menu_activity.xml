@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <item android:id="@+id/nube"
+        android:icon="@drawable/ic_baseline_cloud_24"
+        app:showAsAction="always"
+        android:title="nube"/>
+
+   <item android:id="@+id/compartir1"
+      android:title="prueba1"/>
+   <item android:id="@+id/compartir2"
+       android:title="prueba2"/>
+   <item android:id="@+id/compartir3"
+       android:title="prueba3"/>
+   <item
+      android:checkable="true"
+      android:checked="true"
+      android:title="mostrar"/>
+
+
+
+
+
+
+
+
+</menu>

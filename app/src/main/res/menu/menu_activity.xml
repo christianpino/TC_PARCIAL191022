@@ -3,25 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-   <item android:id="@+id/nube"
-        android:icon="@drawable/ic_baseline_cloud_24"
+
+   <item android:id="@+id/corazon"
+        android:icon="@drawable/ic_baseline_favorite_24"
         app:showAsAction="always"
-        android:title="nube"/>
+        android:title="corazon"/>
+   <item android:id="@+id/buscar"
+      android:icon="@drawable/ic_baseline_search_24"
+      app:showAsAction="always"
+      android:title="buscar"/>
 
    <item android:id="@+id/compartir1"
-      android:title="prueba1"/>
+      android:title="item1"/>
    <item android:id="@+id/compartir2"
-       android:title="prueba2"/>
-   <item android:id="@+id/compartir3"
-       android:title="prueba3"/>
-   <item
-      android:checkable="true"
-      android:checked="true"
-      android:title="mostrar"/>
-
-
-
-
+       android:title="item2"/>
 
 
 

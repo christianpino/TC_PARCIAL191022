@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText txt1, txt2;
+    private EditText edt1, edt2;
     private Button btn1;
 
 
@@ -23,41 +23,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txt1 = findViewById(R.id.edt1);
-        txt2 = findViewById(R.id.edt2);
+        edt2 = findViewById(R.id.edt2);
+        edt1 = findViewById(R.id.edt1);
         btn1 = findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String login = "christian";
-                String password = "1234";
-                String log = txt1.getText().toString();
-                String pass= txt2.getText().toString();
-
-                if(log.equals("")){
-                    Toast.makeText(getApplicationContext(),"campos vacios.."+pass, Toast.LENGTH_LONG).show();
-
-                }else{
-                    if(log.equals(login)){
-                        Bundle enviadato = new Bundle();
-                        enviadato.putString("keydatos", txt1.getText().toString());
-
-                        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                        intent.putExtras(enviadato);
-                        startActivity(intent);
 
 
-                    }else{
-                        Toast.makeText(getApplicationContext(),"datos incorrectos"+pass, Toast.LENGTH_LONG).show();
-                    }
-                }
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
 
 
             }
         });
-
     }
-//se agrega en menu_activity los iconos en base a lo que quieras
+    }
+
+
+
+
+
+
+/*se agrega en menu_activity los iconos en base a lo que quieras
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_activity,menu);
@@ -74,5 +62,5 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
+*/
 // https://www.develou.com/recursos-de-menu-en-android/      todos los necesarios xd

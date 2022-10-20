@@ -11,7 +11,7 @@
         android:layout_width="305dp"
         android:layout_height="56dp"
         android:ems="10"
-        android:hint="###########"
+        android:hint="CORREO"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="305dp"
         android:layout_height="56dp"
         android:ems="10"
-        android:hint="##############"
+        android:hint="PASSWORD"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,11 +36,23 @@
         android:id="@+id/btn1"
         android:layout_width="305dp"
         android:layout_height="56dp"
-        android:text="#########"
+        android:text="INGRESAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.383" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="127dp"
+        android:layout_height="43dp"
+        android:text="LOGIN"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
